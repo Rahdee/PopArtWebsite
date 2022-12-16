@@ -56,7 +56,6 @@
 .parallax {
     /* The image used */
     background-image: url("Images/landing\ page.png");
-  
     /* Set a specific height */
     min-height: 860px; 
   
@@ -67,10 +66,15 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+   
+  .AboutBackground{
+    background-image: url("Images/Asset\ 7.png");
+    
+    
+  }
   .aboutme{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
+    color: #E20F32;
     line-height: 1.8;
     text-align: center;
     font-size: 50px;
@@ -84,7 +88,7 @@ padding: 60px 0px 0px 0px;
 
 .bio{
   text-align:justify;
-  color: #01A3EA;
+  color:#F2FC2B;
   line-height: normal;
   font-size: 24px;
   font-family:'Verdana', Geneva, Tahoma, sans-serif;
