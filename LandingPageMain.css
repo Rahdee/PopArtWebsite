@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  padding: 10px 5px;
+  height: 90px  ;
+  max-height: fit-content;
+  width: 1690px;
+  padding: 0px 5px 0px 10px;
+}
 /* Style the header with a grey background and some padding */
-.navbar {
+/* #navbar {
     overflow: hidden;
     background-color: black;
     padding: 20px 10px;
@@ -14,9 +23,25 @@
     width: auto;
     padding: 0px 5px 0px 10px;
   }
-   
+    */
+
+    /* Navbar links */
+#navbar a {
+  float: left;
+    color: yellow;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 61px;
+    border-radius: 4px;
+    font-family:'Comic Neue',serif;
+    font-weight :500;
+    
+    image-resolution: 100%;
+}
   /* Style the header links */
-  .navbar a {
+  /* #navbar a {
     float: left;
     color: yellow;
     text-align: center;
@@ -25,15 +50,32 @@
     font-size: 17px;
     line-height: 72px;
     border-radius: 4px;
-    font-family:Verdana, Geneva, 'Tahoma', sans-serif;
-    font-weight: lighter;
+    font-family:'Comic Neue',serif;
+    font-weight :500;
     
     image-resolution: 100%;
-  }
+  } */
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-.navbar a.logo {
-    padding: 10px 0px 0px 2px;
+#navbar a.logo {
+    padding: 11px 0px 2px 20px;
   }
 
   /* Float the link section to the right */
@@ -69,15 +111,16 @@
    
   .AboutBackground{
     background-image: url("Images/Asset\ 7.png");
-    
+    min-height: 860px;
     
   }
   .aboutme{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #E20F32;
+  font-family:'Bangers';
+    color: #F2FC2B;
     line-height: 1.8;
     text-align: center;
-    font-size: 50px;
+    font-size: 86px;
+    font-weight:normal;
 }
 
 .pic1{
@@ -88,10 +131,11 @@ padding: 60px 0px 0px 0px;
 
 .bio{
   text-align:justify;
-  color:#F2FC2B;
+  color:white;
   line-height: normal;
-  font-size: 24px;
-  font-family:'Verdana', Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+  font-family:'Comic Neue',serif;
+  font-weight:500;
 }
 
 
