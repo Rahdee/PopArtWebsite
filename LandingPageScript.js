@@ -30,17 +30,17 @@ function loop ( ) {
   textDisplay.innerHTML = currentPhrase.join('')
 
 if (i < phrases.length ) {
-  
+
   if( ! isDeleting && j <= phrases[i].length) {
     currentPhrase.push(phrases [i] [j])
     j++
-    
+
   }
 
   if (isDeleting && j<= phrases[i].length){
     currentPhrase.pop(phrases[i][j])
     j--
-    
+
   }
 
   if (j == phrases [i] . length) {

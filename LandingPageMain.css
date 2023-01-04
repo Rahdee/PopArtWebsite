@@ -4,7 +4,16 @@
     box-sizing: border-box;
 }
 
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
 #navbar {
+  align-items :center;
   overflow: hidden;
   background-color: black;
   padding: 10px 5px;
@@ -27,7 +36,7 @@
     border-radius: 4px;
     font-family:'Comic Neue',serif;
     font-weight :500;
-
+    justify-content: space-around;
     image-resolution: 100%;
 }
 
@@ -86,8 +95,9 @@
   }
 
   .AboutBackground{
-    background-image: url("Images/Asset\ 7.png");
+    background-image: url("Images/Background.png");
     min-height: 1020px;
+
 
   }
   .aboutme{
@@ -145,8 +155,14 @@ padding: 100px 0px 0px 0px;
   font-size:21px;
   font-family:'Comic Neue',serif;
   font-weight:500;
+  letter-spacing: 0.2px;
 }
 .SkillsBackground{
-  background-image: url("Images/PopartBackground.png");
-  min-height: 860px;
+  background-image: url("Images/pOPRTbACKGROUDa.png");
+  min-height: 1020px;
+
+}
+
+.SkillsPic{
+  padding: 235px 2px 0px 250px
 }
