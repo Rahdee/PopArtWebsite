@@ -16,6 +16,8 @@ function myFunction() {
   }
 }
 
+// automatic typewriter effect
+
 const textDisplay = document.getElementById('text')
 const phrases = [ ' I am  a : ' , 'UX / UI Developer ' , '  Graphic Designer , ' , '  and Photographer . ']
 
